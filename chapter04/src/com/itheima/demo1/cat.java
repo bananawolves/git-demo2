@@ -14,7 +14,7 @@ public class cat extends animal{
     public void eat(){
         //System.out.println(super.num);//通过super访问父类的成员变量
         //super.eat();通过super访问父类的成员方法
-        System.out.println("我要吃鱼~");
+        System.out.println("我要吃鱼~"); //继承抽象类，里面的抽象方法必须要被重写
     }
 
     public String getColor() {

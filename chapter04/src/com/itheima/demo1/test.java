@@ -17,6 +17,8 @@ public class test {
         b.setAge(5);
         System.out.println(b.getName()+","+b.getAge());
         b.eat();
+        //animal an = new animal() ;//抽象类不能直接创建对象，因为抽象方法里没有代码体，需要被改写
 
+        }
     }
-}
+

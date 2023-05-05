@@ -1,6 +1,6 @@
 package com.itheima.demo1;
 
-public class animal {
+public abstract class animal { //抽象类
     private String name;
     private int age;
    // int num =10;
@@ -28,7 +28,5 @@ public class animal {
     public void setAge(int age) {
         this.age = age;
     }
-    public void eat(){
-        System.out.println("我要吃东西~");
-    }
+    public abstract void eat(); //抽象方法
 }
