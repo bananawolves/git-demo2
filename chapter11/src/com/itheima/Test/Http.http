@@ -1,0 +1,9 @@
+package com.itheima.Test;
+
+import java.io.Closeable;
+
+public class http {
+    public void testGet1(){
+        CloseableHttpClient
+    }
+}

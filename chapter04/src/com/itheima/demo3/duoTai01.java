@@ -28,6 +28,9 @@ public class duoTai01 {
         if (a instanceof Dog) { //判断：左边是否是右边具体的类型 是：返回ture
             Dog dog=(Dog)a;
             dog.show();
+        }else {
+            Cat cat = (Cat) a;
+            cat.show();
         }
     }
 }
@@ -51,4 +54,8 @@ class Cat extends Animal{
     public void shout() {
         System.out.println("喵喵叫.............");
     }
+    public void show(){
+        System.out.println("cat.....show");
+    }
+
 }
